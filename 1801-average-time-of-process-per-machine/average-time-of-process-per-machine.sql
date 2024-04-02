@@ -1,5 +1,4 @@
 /* Write your PL/SQL query statement below */
-/* Write your PL/SQL query statement below */
 SELECT MACHINE_ID ,
 ROUND(SUM(
     CASE WHEN ACTIVITY_TYPE = 'start' THEN -TIMESTAMP ELSE TIMESTAMP END
